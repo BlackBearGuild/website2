@@ -1,5 +1,6 @@
 body {
     background-color: rgb(30,30,30);
+    margin-inline: auto;
 }
 h1{
     text-align: center;
@@ -19,8 +20,9 @@ h3{
 p {
     text-align: left;
     line-height: 1.75;
-    padding: 25px 200px 25px 200px;
     font-size: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
     color: rgb(209,161,107);
 }
 a {
@@ -30,18 +32,21 @@ a {
 .navbar ul{
     background-color: rgb(30,30,30);
     overflow: none;
-    margin: 0 auto;
+    margin: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
     list-style-type: none;
     font-size: 25px;
-    padding: 25px 25px 25px 25px;
+    margin-inline: auto;
     }
     .navbar li{
         display: inline;
-        padding: 25px 25px 25px 25px;
+        margin-inline: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
         text-decoration: none;
         font-size: 25px;
         float: center;
-
     }
     .navbar a{
     text-align: center;
